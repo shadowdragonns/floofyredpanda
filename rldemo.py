@@ -4,7 +4,7 @@ import math
 import numpy as np
 import gym
 from gym import spaces
-import floofyredpanda as frp  # your RL library
+import floofyredpanda as frp  
 
 class Bullet:
     def __init__(self, bid, pos, vel, owner):
