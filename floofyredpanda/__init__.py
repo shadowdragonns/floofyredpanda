@@ -1,4 +1,13 @@
-__version__ = "0.4.6"
-from .nn import infer, register_output_converter
-from .train import train
-from .rl import rl
+from .client import tell_the_server, secretly_tell_the_server, RedPandaClient
+from .server import start_floofy_server, ParanoidPanda
+from .utils import requesttobyte
+__version__ = "1.0.7"
+__all__ = [
+    "tell_the_server",
+    "requesttobyte",
+    "secretly_tell_the_server",
+    "RedPandaClient",
+    "start_floofy_server",
+    "ParanoidPanda",
+    "__version__",
+]
